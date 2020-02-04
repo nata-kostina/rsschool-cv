@@ -19,6 +19,24 @@ and with drive for tangible results.
 - BS in Intercultural Communication
   - *Minsk State Linguistic University*
   - *2014-2019*
+### Code Examples
+##### Task
+Write a function that takes a positive integer n, sums all the cubed values from 1 to n, and returns that sum.
+Assume that the input n will always be a positive integer.
+##### Solution
+```
+function sumCubes(n){
+  if (n>0) {
+    let sum=0;
+    for (let i=1; i<=n; i++){
+      sum+=Math.pow(i,3);  
+    }
+    return sum;
+  }
+  return "Not a positive integer";
+}
+```
+
 ### Languages
 * Russian (Native)
 * English (B2 - Upper Intermediate)
